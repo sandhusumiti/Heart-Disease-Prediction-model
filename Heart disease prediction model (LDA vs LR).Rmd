@@ -21,7 +21,7 @@ h$disease <- as.factor(h$target)
 ```
 
 
-```{r converting interger to character for better plots}
+```{r converting integer to character for better plots}
 library(base)
 h$target <- gsub(0,"Disease",h$target)
 h$target <- gsub(1,"No disease",h$target)
